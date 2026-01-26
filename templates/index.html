@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Página inicial</h2>
+
+  {% if user %}
+    <p>Você está logado como <b>{{ user["name"] }}</b> ({{ user["email"] }}).</p>
+    <p class="muted">Sessão ativa. Você pode clicar em Logout para sair.</p>
+  {% else %}
+    <p>Você não está logado.</p>
+    <p class="muted">Faça login ou crie uma conta.</p>
+  {% endif %}
+{% endblock %}

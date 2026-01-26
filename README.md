@@ -68,4 +68,4 @@ O projeto também está publicado na nuvem:
 Objetivo do projeto
 
 Esse projeto faz parte dos meus estudos para entrar na área de desenvolvimento back-end.
-Foi focado em entender autenticação de usuários e estrutura básica de uma aplicação web com Flask.****
+Foi focado em entender autenticação de usuários e estrutura básica de uma aplicação web com Flask.
